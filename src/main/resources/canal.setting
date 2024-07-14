@@ -1,0 +1,3 @@
+canal.server.ip=127.0.0.1
+canal.server.port=11111
+canal.server.destination=docker_mysql
