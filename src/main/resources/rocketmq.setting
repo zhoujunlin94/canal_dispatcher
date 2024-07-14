@@ -1,0 +1,6 @@
+rocketmq.canal.nameserver=127.0.0.1:19876
+rocketmq.canal.topic=canal_docker_mysql
+rocketmq.canal.group=CanalGroup
+
+rocketmq.dispatcher.nameserver=127.0.0.1:19876
+rocketmq.dispatcher.group=DispatchCanalGroup

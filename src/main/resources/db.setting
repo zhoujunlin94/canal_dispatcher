@@ -1,0 +1,16 @@
+#----------------------------------------数据库配置-------------------------------------------
+
+url = jdbc:mysql://127.0.0.1:3306/common?useSSL=false&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=convertToNull&useUnicode=true&autoReconnect=true&failOverReadOnly=false&useAffectedRows=true
+username = root
+password = root
+
+#----------------------------------------数据库配置-------------------------------------------
+
+
+#----------------------------------------连接池配置-------------------------------------------
+
+initialSize = 10
+minIdle = 5
+maxActive=8
+
+#----------------------------------------连接池配置-------------------------------------------

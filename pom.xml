@@ -14,6 +14,7 @@
 
         <meet.version>1.1.9</meet.version>
         <canal.version>1.1.2</canal.version>
+        <mysql.version>8.0.17</mysql.version>
     </properties>
 
     <dependencies>
@@ -31,6 +32,13 @@
             <groupId>com.alibaba.otter</groupId>
             <artifactId>canal.protocol</artifactId>
             <version>${canal.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 
